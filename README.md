@@ -8,7 +8,7 @@ Records auto-renumber after deletion to avoid gaps
 Input validation for phone numbers and ticket counts
 Bill generation with student and bulk booking discounts
 Formatted ticket printout with a simulated QR code
-All data saved to and loaded from a text file
+All data is saved to and loaded from a text file
 
 My Contributions:
 I was responsible for the core data management layer of the system — the parts that make the program reliable and persistent:
@@ -17,7 +17,7 @@ Save & Load (saveToFile / loadFromFile) — designed the file format and handled
 
 Delete (deleteBooking) — implemented deletion with confirmation, auto-renumbering of remaining records, and a display showing occupied and free slots
 
-Edit (edit) — built the full edit flow including name search, menu-driven selection for movie, showtime, seat class, and ticket count to prevent typos, phone validation, and automatic total price recalculation
+Edit (edit) — built the full edit flow, including name search, menu-driven selection for movie, showtime, seat class, and ticket count to prevent typos, phone validation, and automatic total price recalculation
 
 Login & Main Menu — took over these shared tasks when teammates were unavailable, keeping the project on track
 
@@ -30,5 +30,5 @@ Teammate 1 — View and Search functions
 Teammate 2 — Add Booking and Bill Generation
 Myself — Save/Load, Delete, Edit, Login, Main Menu, Ticket Generator
 
-What I Learned
+What I Learned:
 This was my first real programming project. Working in C taught me how memory, file I/O, and structs actually work at a low level. Managing a shared codebase with teammates also showed me how important clean structure and communication are, things I will carry into every project after this.
